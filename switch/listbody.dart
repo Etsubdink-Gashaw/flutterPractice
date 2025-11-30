@@ -31,7 +31,8 @@ class SampleLayoutBuilder extends StatelessWidget {
         elevation: 4,
       ),
       backgroundColor: const Color.fromARGB(255, 104, 104, 104),
-      body: Row(
+      body: SingleChildScrollView(
+       child: Row(
         children: [
           Container(
         height: 80,
@@ -60,6 +61,7 @@ class SampleLayoutBuilder extends StatelessWidget {
             ),),
         ],
 
+      )
       )
       );
   }
